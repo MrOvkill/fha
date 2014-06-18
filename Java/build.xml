@@ -1,0 +1,23 @@
+<!--
+
+    * Author: Samuel "MrOverkill" Meyers
+    * License: GPL v3
+    * Version: 0.2.0
+    * Date: 06/18/2014
+
+!-->
+
+<project>
+
+<target name="build">
+<mkdir dir="classes"/>
+<javac srcdir="src" destdir="classes"/>
+<jar destfile="fha.jar" basedir="classes">
+<manifest>
+<attribute name="Main-Class" value="com.epicknife.fha.Main"/>
+</manifest>
+</jar>
+<delete dir="classes"/>
+</target>
+
+</project>
