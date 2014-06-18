@@ -2,12 +2,12 @@
 
     * Author: Samuel "MrOverkill" Meyers
     * License: GPL v3
-    * Version: 0.0.1
+    * Version: 0.1.0
     * Date: 06/18/2014
 
 */
 
-#include "fha/fha.h"
+#include "fha/fha.hpp"
 
 FILE* f;
 
@@ -84,8 +84,8 @@ int main(int argc, char* argv[])
         }
     }
     
-    fhaInit(sstr);
-    printf("%s\n", fhaHash());
-    fhaClear();
+    Fha fha = Fha(sstr);
+    printf("%s\n", fha.hash());
+    fha.clear();
     return 0;
 }

@@ -2,7 +2,7 @@
 
     * Author: Samuel "MrOverkill" Meyers
     * License: GPL v3
-    * Version: 0.0.1
+    * Version: 0.1.0
     * Date: 06/18/2014
 
 */
