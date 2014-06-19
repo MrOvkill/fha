@@ -2,7 +2,7 @@
 
     * Author: Samuel "MrOverkill" Meyers
     * License: GPL v3
-    * Version: 0.2.0
+    * Version: 0.3.0
     * Date: 06/18/2014
 
 */
@@ -18,7 +18,7 @@ class Fha
 {
     final:
         VERSION_MAJOR = 0;
-        VERSION_MINOR = 1;
+        VERSION_MINOR =3;
         REVISION = 0;
     private:
         char* str;

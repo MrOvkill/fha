@@ -2,7 +2,7 @@
 
     * Author: Samuel "MrOverkill" Meyers
     * License: GPL v3
-    * Version: 0.2.0
+    * Version: 0.3.0
     * Date: 06/18/2014
 
 */
@@ -13,6 +13,10 @@ import java.util.Random;
 
 public class Fha
 {
+    public static final int VERSION_MAJOR = 0;
+    public static final int VERSION_MINOR = 3;
+    public static final int REVISION = 0;
+    
     private Random rand;
     private char[] str;
     
